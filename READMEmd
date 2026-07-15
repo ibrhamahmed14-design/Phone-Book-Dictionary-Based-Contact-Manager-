@@ -102,9 +102,8 @@ Through this project, I practiced:
 
 ## Future Improvements
 
-* Save contacts to a CSV or JSON file.
-* Preserve contacts after closing the program.
-* Support multiple phone numbers per contact.
-* Search contacts by partial name.
-* Build a graphical user interface (GUI).
-* Store contacts in a SQL database.
+- Save contacts to a CSV or JSON file.
+- Persist data between program runs.
+- Support multiple phone numbers per contact.
+- Search contacts by partial name.
+- Store contacts in a SQL database.
