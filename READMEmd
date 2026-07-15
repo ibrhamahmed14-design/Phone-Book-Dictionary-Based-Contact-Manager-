@@ -1,0 +1,110 @@
+# Phone Book (Dictionary-Based Contact Manager)
+
+## Description
+
+A simple command-line phone book application built with Python. The project stores contacts in a dictionary, where each contact name acts as a key and the phone number as its value. It demonstrates the fundamentals of Python dictionaries, functions, input validation, string manipulation, and CRUD (Create, Read, Update, Delete) operations.
+
+The project was created as part of the **Python Fundamentals** section of the Duke University Python course.
+
+---
+
+## Features
+
+* Add a new contact.
+* Search for a contact by name.
+* Update an existing contact's phone number.
+* Remove a contact.
+* Display all contacts in alphabetical order.
+* Validate phone numbers before storing them.
+* Automatically format phone numbers as `XXX-XXX-XXXX`.
+* Case-insensitive contact search.
+* Exit the application from the menu.
+
+---
+
+## Technologies Used
+
+* Python 3
+* Dictionaries
+* Functions
+* Loops
+* Conditional Statements
+* String Methods
+
+---
+
+## How It Works
+
+The application is menu-driven. After running the program, you can choose one of the following commands:
+
+* **get** – Search for a contact by name.
+* **add** – Add a new contact.
+* **remove** – Delete an existing contact.
+* **update** – Update a contact's phone number.
+* **show** – Display all stored contacts.
+* **exit** – Close the application.
+
+Each operation is implemented in its own function, making the code easier to read and maintain.
+
+---
+
+## Input Validation
+
+* Contact names are normalized by removing extra spaces and converting them to lowercase before lookup.
+* Phone numbers must contain exactly **10 digits**.
+* Valid phone numbers are automatically formatted as:
+
+```
+123-456-7890
+```
+
+---
+
+## Example
+
+```text
+Enter your choice (get, add, remove, update, show, exit): add
+
+Enter the name of the contact:
+Mostafa Ahmed
+
+Enter the phone number:
+0101234567
+
+Contact mostafa ahmed added with phone number 010-123-4567.
+```
+
+---
+
+## Project Structure
+
+```
+phone_book.py
+README.md
+```
+
+---
+
+## What I Learned
+
+Through this project, I practiced:
+
+* Working with Python dictionaries.
+* Implementing CRUD operations.
+* Writing reusable functions.
+* Performing input validation.
+* Formatting user input.
+* Using string methods such as `strip()` and `lower()`.
+* Sorting dictionary items before displaying them.
+* Building a simple interactive command-line application.
+
+---
+
+## Future Improvements
+
+* Save contacts to a CSV or JSON file.
+* Preserve contacts after closing the program.
+* Support multiple phone numbers per contact.
+* Search contacts by partial name.
+* Build a graphical user interface (GUI).
+* Store contacts in a SQL database.
